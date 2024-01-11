@@ -56,12 +56,7 @@ include "header.php";
 </body>
 </html>
 
-    
-
-
 <?php
-
-
 
 // Jours en abscisse
 $jours = [$date1, $date2, $date3, $date4, $date5];
