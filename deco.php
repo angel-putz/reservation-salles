@@ -1,4 +1,4 @@
-<?php
+ <?php
  session_start();
  $_SESSION = array();
  session_destroy();
@@ -11,7 +11,10 @@
  </head>
  <body>
  <div class="deconnexion">
+ <?php
+ include "header.php";
+ ?>
  <p>Vous êtes déconnecté</p>
-<a href="index.php" class="btn btn-success" role="button">Retour à l'accueil</a>
-</div>
-</body>
+ <a href="index.php" class="btn btn-success" role="button">Retour à l'accueil</a>
+ </div>
+ </body>
